@@ -1,0 +1,27 @@
+{
+    "name": "theorx/mapper",
+    "type": "library",
+    "description": "",
+    "keywords": ["mapper"],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Lauri Orgla",
+            "email": "TheOrX@hotmail.com",
+            "homepage": "http://www.lauri.guru",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "theorx/reflectionist": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mapper\\": "library/Mapper/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
