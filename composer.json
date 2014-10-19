@@ -1,8 +1,8 @@
 {
     "name": "theorx/mapper",
     "type": "library",
-    "description": "",
-    "keywords": ["mapper"],
+    "description": "Mapper is a php library for getting metadata from class.",
+    "keywords": ["mapper", "analysis", "metadata", "phpdoc", "annotation"],
     "licence": "MIT",
     "authors": [
         {
