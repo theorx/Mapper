@@ -7,7 +7,7 @@ Mapper is a library for getting metadata from a class.
 ----------
 
 - Get metadata for a whole class ( Mapper\Mapper::getMap($className) )
-- Get metadata for a property from given class ( Mapper\mapper::getPropertyMeta($className, $propertyName) )
+- Get metadata for a property from given class ( Mapper\Mapper::getPropertyMeta($className, $propertyName) )
 - Get metadata for a method from given class ( Mapper\Mapper::getMethodMeta($className, $methodName) )
 - Define your own callback for writing cache ( Mapper\Mapper::setCacheSaveFunction($saveMethod) )
 - Define your own callback for reading cache ( Mapper\Mapper::setCacheReadFunction($readFunction) )
